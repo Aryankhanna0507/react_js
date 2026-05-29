@@ -1,9 +1,12 @@
-
+import Chai from "./chai"
 function App() {
-
   return (
-    <h1>chai or react using vite</h1>
+    <Chai/>
+    // <h1></h1> it will give erroe because jsx should be enclosed in the single tag 
+    //solution-> sabko ek div me wrap kr do ya phir 
+    // ek fragment return kr do <></>
   )
 }
+
 
 export default App
